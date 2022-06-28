@@ -1,0 +1,15 @@
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\bin\Debug\MssqlEntityFramework.dll
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\bin\Debug\MssqlEntityFramework.pdb
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\bin\Debug\System.CodeDom.dll
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\bin\Debug\System.CodeDom.xml
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.csproj.AssemblyReference.cache
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.csproj.CoreCompileInputs.cache
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.csproj.CopyComplete
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.dll
+D:\Proje\Mikrotek S_MERKEZ\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.pdb
+D:\MyProje\MssqlEntityFramework\bin\Debug\MssqlEntityFramework.dll
+D:\MyProje\MssqlEntityFramework\bin\Debug\MssqlEntityFramework.pdb
+D:\MyProje\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.csproj.AssemblyReference.cache
+D:\MyProje\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.csproj.CoreCompileInputs.cache
+D:\MyProje\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.dll
+D:\MyProje\MssqlEntityFramework\obj\Debug\MssqlEntityFramework.pdb

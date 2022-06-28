@@ -1,0 +1,30 @@
+USE [12M]
+GO
+
+/****** Object:  StoredProcedure [dbo].[Rapor]    Script Date: 28.06.2022 11:17:39 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER PROC [dbo].[Rapor]
+(
+	@MalzKodu nvarchar(max),
+	@IlkTarih int,
+	@SonTarih int
+)
+AS
+BEGIN
+SELECT 
+ID as SiraNo,
+(Case when IslemTur = 0 Then 'Giriş' when IslemTur = 1 Then 'Çıkış' end) as IslemTur,
+EvrakNo,
+CONVERT(VARCHAR(15), CAST(Tarih - 2 AS datetime), 104) as Tarih,
+ISNULL((CASE when IslemTur = 0 Then Miktar end),0.0) as GirisMiktar,
+ISNULL((CASE when IslemTur = 1 Then Miktar end),0.0) as CikisMiktar
+FROM STI
+WHERE (MalKodu = @MalzKodu) AND (Tarih >= @IlkTarih AND Tarih <= @SonTarih)
+ORDER BY ID, Tarih
+
+END
